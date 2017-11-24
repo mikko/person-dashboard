@@ -4,7 +4,7 @@ const GoogleCal = require('./googlecal');
 
 const config = require('./config');
 
-const calList = 
+const calList = config.calList;
 
 const getNow = () => new Moment();
 const getTodayStart = () => Moment().startOf('day');
