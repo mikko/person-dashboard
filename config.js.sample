@@ -1,0 +1,8 @@
+module.export = {
+  calList: [
+    {
+      id: 'somecalendaridentifier@resource.calendar.google.com',
+      name: 'Some human name for calendar'
+    }
+  ]
+};
